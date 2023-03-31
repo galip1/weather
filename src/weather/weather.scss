@@ -1,0 +1,69 @@
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #c7ecee;
+  font-family: "Roboto", sans-serif;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 300px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.search-icon {
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.loading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.weather-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f1f2f6;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.city {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.temp {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.weather {
+  font-size: 24px;
+  font-weight: bold;
+}
